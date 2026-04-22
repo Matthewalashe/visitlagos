@@ -1,0 +1,76 @@
+[
+  {
+    "id": "dest-lagos",
+    "name": "Lagos",
+    "slug": "lagos",
+    "state": "Lagos State",
+    "tagline": "The Heartbeat of Africa",
+    "description": "Lagos is the pulsating heart of West Africa — a megacity of 20 million souls where ancient Yoruba traditions collide with Afrobeats, fashion, tech, and an unstoppable entrepreneurial spirit. From the colonial architecture of Lagos Island to the glittering nightlife of Victoria Island, Lagos is Africa's city of dreams.",
+    "long_description": "Lagos is more than a city — it's a force of nature. The economic capital of Nigeria and the cultural epicenter of West Africa, Lagos pulses with an energy that's utterly unique on the planet.\n\nWalk through the bustling corridors of Balogun Market, where thousands of traders deal in everything from hand-dyed Adire textiles to imported electronics. Cross the Third Mainland Bridge at sunset for views that rival any waterfront city in the world. Lose yourself in the Nike Art Gallery's four floors of Nigerian art, or dance until dawn at the New Afrika Shrine, the spiritual home of Afrobeat.\n\nLagos Island tells the story of pre-colonial Yoruba history, Portuguese trade, and British colonialism. Lekki and Victoria Island showcase modern Nigeria — rooftop bars, world-class restaurants, and tech hubs. Badagry, just west of the city, preserves the solemn memory of the transatlantic slave trade.\n\nDuring Detty December, Lagos becomes the entertainment capital of the world — Wizkid, Davido, Burna Boy, and Asake headline massive concerts while beach raves, art fairs, and fashion shows fill every corner of the city.\n\nWhether you're a first-time visitor or a returning diaspora member coming home, Lagos will surprise you, challenge you, and leave you absolutely captivated.",
+    "image_url": "https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?w=800&q=80",
+      "https://images.unsplash.com/photo-1577975882846-431adc8c2009?w=800&q=80",
+      "https://images.unsplash.com/photo-1591113234756-03753e4ce8e5?w=800&q=80"
+    ],
+    "highlights": [
+      "Nike Art Gallery — Nigeria's premier private art collection",
+      "New Afrika Shrine — Fela Kuti's legendary musical temple",
+      "Lekki Conservation Centre — Africa's longest canopy walkway",
+      "Badagry Heritage Museum — Powerful slave trade history",
+      "Victoria Island nightlife — World-class dining and clubs",
+      "Balogun Market — The sensory overload of Lagos commerce"
+    ],
+    "getting_there": "Murtala Muhammed International Airport (LOS) serves international flights from London, Dubai, New York, Atlanta, and major African cities. From the airport, arrange a private transfer or use Bolt/Uber (₦5,000–₦15,000 to Victoria Island depending on traffic).",
+    "best_time": "November to February (Harmattan season) offers cooler, drier weather. December is peak season for Detty December. April-May is rainy season but fewer crowds.",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "dest-ogun",
+    "name": "Ogun",
+    "slug": "ogun",
+    "state": "Ogun State",
+    "tagline": "Cradle of Yoruba Civilization",
+    "description": "Ogun State is where the soul of Yorubaland lives. Home to the ancient city of Abeokuta ('Under the Rock'), founded by the Egba people seeking refuge beneath the mighty Olumo Rock, Ogun is a living museum of Yoruba history, architecture, and the world-famous Adire textile tradition.",
+    "long_description": "Ogun State is the gateway to understanding Yoruba civilization in its purest form. Named after Ogun, the Yoruba god of iron and war, this state embodies the resilience, creativity, and spiritual depth of Yoruba culture.\n\nAbeokuta, the state capital, is dominated by Olumo Rock — a massive granite outcrop that served as a fortress during 19th-century inter-tribal wars. Climb its ancient steps, walk through sacred caves where warriors once hid, and enjoy panoramic views of a city that has preserved its heritage while growing into modernity.\n\nThe Itoku quarter of Abeokuta is the epicenter of Adire — the Yoruba art of resist-dyeing fabric in indigo. Watch master craftswomen (Alaro) create stunning patterns using cassava paste and indigo dye in methods passed down for centuries. Buy authentic Adire directly from the makers — you won't find this anywhere else in the world.\n\nVisit the Centenary Hall and the Alake's Palace to understand the traditional governance system that still operates alongside modern government. Explore the Olusegun Obasanjo Presidential Library for a dose of modern Nigerian history.\n\nOgun is just 1–2 hours from Lagos, making it a perfect day trip or weekend excursion for travelers based in the city.",
+    "image_url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=800&q=80",
+      "https://images.unsplash.com/photo-1528277342758-f1d7613953a2?w=800&q=80"
+    ],
+    "highlights": [
+      "Olumo Rock — Sacred fortress with ancient caves and panoramic views",
+      "Adire textile market (Itoku) — World-famous indigo-dyed fabrics",
+      "Alake's Palace — Traditional Egba monarchy seat",
+      "Centenary Hall — Historic architectural landmark",
+      "Obasanjo Presidential Library — Modern Nigerian history"
+    ],
+    "getting_there": "1.5–2 hours drive from Lagos via the Lagos-Ibadan Expressway. Regular buses depart from Ojota Motor Park. Private car hire or Bolt intercity is recommended for comfort.",
+    "best_time": "Year-round, but the cool Harmattan months (November–February) are most comfortable. The Lisabi Festival in March celebrates Egba history.",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "dest-osun",
+    "name": "Osun",
+    "slug": "osun",
+    "state": "Osun State",
+    "tagline": "Land of the Living Spring",
+    "description": "Osun State is the spiritual heart of Yorubaland — home to the UNESCO World Heritage Osun-Osogbo Sacred Grove, the ancient city of Ile-Ife (believed to be the cradle of all Yoruba civilization), and the living court of the Ooni of Ife, one of the most revered monarchs in Africa.",
+    "long_description": "If Lagos is the heartbeat of modern Yorubaland, Osun is its ancestral soul. This state holds the two most sacred sites in Yoruba cosmology: the Osun-Osogbo Sacred Grove and the ancient city of Ile-Ife.\n\nThe Osun-Osogbo Sacred Grove, a UNESCO World Heritage Site since 2005, is one of the last remaining primary forests in southern Nigeria. Within its dense canopy, you'll find over 40 shrines, sculptures, and artworks dedicated to Osun, the Yoruba goddess of fertility and the river. Every August, the annual Osun-Osogbo Festival draws hundreds of thousands of devotees and tourists from around the world.\n\nIle-Ife, known as the 'Source' or 'Cradle of Yoruba Civilization,' is where the Yoruba creation myth places the beginning of the world. The Ooni of Ife — a living god-king — holds one of the most ancient and respected thrones in Africa. Visit the Ooni's Palace, the Ife Museum of Antiquities (home to the famous Ife bronze heads), and the sacred Ore Grove.\n\nOsun offers a deeply spiritual and historically rich experience that provides essential context for understanding Yoruba culture, religion, and identity across the global diaspora — from Brazil's Candomblé to Cuba's Santería to Trinidad's Shango.",
+    "image_url": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80",
+      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80"
+    ],
+    "highlights": [
+      "Osun-Osogbo Sacred Grove — UNESCO World Heritage Site",
+      "Ile-Ife — Cradle of Yoruba civilization",
+      "Ooni of Ife's Palace — Seat of one of Africa's oldest monarchies",
+      "National Museum, Ile-Ife — Famous Ife bronze heads",
+      "Annual Osun-Osogbo Festival — Massive cultural gathering in August"
+    ],
+    "getting_there": "3–4 hours from Lagos by road via Lagos-Ibadan Expressway then Ibadan-Ife road. Regular bus services from Oshodi and Ojota parks. Internal flights to Ibadan, then 1 hour drive to Osogbo or Ife.",
+    "best_time": "August for the Osun-Osogbo Festival. November–February for comfortable weather. The Olojo Festival in Ife (October) is another major event.",
+    "created_at": "2026-01-01T00:00:00Z"
+  }
+]

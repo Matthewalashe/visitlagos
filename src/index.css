@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   VisitLagos — Brutalist × Glassmorphism 
+   Design System
+   ============================================ */
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #FAFAF7;
+    color: #1A1A1A;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: #C8963E;
+    color: #FAFAF7;
+  }
+}
+
+@layer components {
+  /* --- Brutalist Glass Card --- */
+  .brutal-glass {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid #1A1A1A;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .brutal-glass:hover {
+    transform: translateY(-4px);
+    box-shadow: 6px 6px 0px #1A1A1A;
+  }
+
+  /* --- Brutalist Glass Card (no hover) --- */
+  .brutal-glass-static {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid #1A1A1A;
+  }
+
+  /* --- Gold Accent Glass --- */
+  .gold-glass {
+    background: linear-gradient(135deg, rgba(200, 150, 62, 0.1), rgba(200, 150, 62, 0.05));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid #C8963E;
+  }
+
+  /* --- Section Divider (Brutalist) --- */
+  .brutal-divider {
+    height: 3px;
+    background-color: #1A1A1A;
+    border: none;
+  }
+
+  /* --- Brutalist Button --- */
+  .btn-brutal {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem 2rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 2px solid #1A1A1A;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+  }
+
+  .btn-brutal-primary {
+    background-color: #1A1A1A;
+    color: #FAFAF7;
+  }
+
+  .btn-brutal-primary:hover {
+    background-color: #C8963E;
+    border-color: #C8963E;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0px #1A1A1A;
+  }
+
+  .btn-brutal-outline {
+    background-color: transparent;
+    color: #1A1A1A;
+  }
+
+  .btn-brutal-outline:hover {
+    background-color: #1A1A1A;
+    color: #FAFAF7;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0px #C8963E;
+  }
+
+  .btn-brutal-gold {
+    background-color: #C8963E;
+    color: #FAFAF7;
+    border-color: #C8963E;
+  }
+
+  .btn-brutal-gold:hover {
+    background-color: #A67B2E;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0px #1A1A1A;
+  }
+
+  .btn-brutal-coral {
+    background-color: #E05A3A;
+    color: #FAFAF7;
+    border-color: #E05A3A;
+  }
+
+  .btn-brutal-coral:hover {
+    background-color: #c44a2e;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0px #1A1A1A;
+  }
+
+  /* --- Adire Pattern Strip (decorative) --- */
+  .adire-strip {
+    height: 8px;
+    background: repeating-linear-gradient(
+      90deg,
+      #C8963E 0px,
+      #C8963E 8px,
+      transparent 8px,
+      transparent 16px,
+      #3D348B 16px,
+      #3D348B 24px,
+      transparent 24px,
+      transparent 32px
+    );
+  }
+
+  /* --- Section Label (Brutalist) --- */
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #C8963E;
+    border-left: 3px solid #C8963E;
+    padding-left: 0.75rem;
+  }
+
+  /* --- Image with brutalist frame --- */
+  .brutal-image {
+    border: 3px solid #1A1A1A;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .brutal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .brutal-image:hover img {
+    transform: scale(1.05);
+  }
+
+  /* --- Badge --- */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: 1.5px solid currentColor;
+  }
+
+  /* --- Scroll Animation --- */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .animate-on-scroll.slide-left {
+    transform: translateX(-30px);
+  }
+
+  .animate-on-scroll.slide-left.is-visible {
+    transform: translateX(0);
+  }
+
+  .animate-on-scroll.slide-right {
+    transform: translateX(30px);
+  }
+
+  .animate-on-scroll.slide-right.is-visible {
+    transform: translateX(0);
+  }
+
+  /* --- Container --- */
+  .container-brutal {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-brutal {
+      padding: 0 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-brutal {
+      padding: 0 3rem;
+    }
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #C8963E, #E8C97A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-coral {
+    background: linear-gradient(135deg, #E05A3A, #F07A5E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0EDE6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C8963E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A67B2E;
+}

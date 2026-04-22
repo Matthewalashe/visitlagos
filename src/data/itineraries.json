@@ -1,0 +1,190 @@
+[
+  {
+    "id": "itin-heritage",
+    "title": "Heritage Route",
+    "slug": "heritage-route",
+    "type": "heritage",
+    "tagline": "Walk through 500 years of Yoruba history",
+    "description": "A 5-day journey from the streets of Lagos through the slave ports of Badagry, the rock fortress of Abeokuta, to the sacred cradle of civilization at Ile-Ife. This route takes you through the defining chapters of Yoruba and Nigerian history.",
+    "duration_days": 5,
+    "image_url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=800&q=80",
+    "highlights": ["Badagry slave trade history", "Olumo Rock fortress", "Adire textile workshop", "Ooni of Ife's Palace", "Ife bronze heads at National Museum"],
+    "price_estimate": "₦250,000 – ₦400,000 per person",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Lagos Island — Where History Begins",
+        "description": "Explore Lagos Island's colonial heritage, from the oldest structures in the city to the vibrant markets that have traded for centuries.",
+        "activities": [
+          { "time": "09:00", "title": "Freedom Park Tour", "description": "Explore the transformed colonial prison, now a cultural centre", "location": "Lagos Island", "type": "attraction" },
+          { "time": "12:00", "title": "Lunch at Yellow Chilli", "description": "Chef Sisi Jemimah's contemporary Nigerian cuisine", "location": "Victoria Island", "type": "food" },
+          { "time": "14:00", "title": "Nike Art Gallery", "description": "Four floors of Nigerian art — painting, sculpture, textiles", "location": "Lekki", "type": "attraction" },
+          { "time": "17:00", "title": "Sunset at Lekki Conservation Centre", "description": "Walk the canopy walkway as the sun sets over the wetlands", "location": "Lekki", "type": "attraction" },
+          { "time": "20:00", "title": "Dinner & Live Music", "description": "Evening at a Victoria Island rooftop restaurant", "location": "Victoria Island", "type": "food" }
+        ]
+      },
+      {
+        "day_number": 2,
+        "title": "Badagry — The Point of No Return",
+        "description": "A solemn and powerful day exploring West Africa's slave trade history at one of the major departure ports.",
+        "activities": [
+          { "time": "07:00", "title": "Depart Lagos for Badagry", "description": "1.5 hour drive west along the coast", "location": "Lagos → Badagry", "type": "transport" },
+          { "time": "09:00", "title": "Badagry Heritage Museum", "description": "Artifacts and exhibits from the slave trade era", "location": "Badagry", "type": "attraction" },
+          { "time": "11:00", "title": "Point of No Return Walk", "description": "Walk the route enslaved Africans took to the ships", "location": "Badagry", "type": "attraction" },
+          { "time": "13:00", "title": "Lunch in Badagry", "description": "Local seafood by the lagoon", "location": "Badagry", "type": "food" },
+          { "time": "15:00", "title": "First Storey Building & Mission House", "description": "Site of Nigeria's first school and missionary settlement", "location": "Badagry", "type": "attraction" },
+          { "time": "17:00", "title": "Return to Lagos", "description": "Evening at leisure", "location": "Lagos", "type": "transport" }
+        ]
+      },
+      {
+        "day_number": 3,
+        "title": "Abeokuta — Under the Rock",
+        "description": "Journey to the Egba capital to climb the sacred Olumo Rock and discover the world capital of Adire textile art.",
+        "activities": [
+          { "time": "07:00", "title": "Depart for Abeokuta", "description": "2 hour drive north via the expressway", "location": "Lagos → Abeokuta", "type": "transport" },
+          { "time": "09:30", "title": "Olumo Rock", "description": "Climb the sacred fortress, explore caves, enjoy panoramic views", "location": "Abeokuta", "type": "attraction" },
+          { "time": "12:30", "title": "Lunch", "description": "Traditional Egba cuisine — try the Amala and Ewedu", "location": "Abeokuta", "type": "food" },
+          { "time": "14:00", "title": "Itoku Adire Market", "description": "Watch Adire textile craftswomen at work, buy authentic pieces", "location": "Itoku, Abeokuta", "type": "attraction" },
+          { "time": "16:30", "title": "Alake's Palace", "description": "Traditional Egba monarchy seat (if accessible)", "location": "Abeokuta", "type": "attraction" },
+          { "time": "18:00", "title": "Check into hotel", "description": "Overnight in Abeokuta or continue to Ibadan", "location": "Abeokuta", "type": "accommodation" }
+        ]
+      },
+      {
+        "day_number": 4,
+        "title": "Ile-Ife — Cradle of Civilization",
+        "description": "Arrive at the spiritual and mythological birthplace of the Yoruba people.",
+        "activities": [
+          { "time": "08:00", "title": "Drive to Ile-Ife", "description": "2.5 hours via Ibadan-Ife road", "location": "Abeokuta → Ile-Ife", "type": "transport" },
+          { "time": "11:00", "title": "Ooni of Ife's Palace", "description": "Visit the seat of Africa's oldest traditional monarchy", "location": "Ile-Ife", "type": "attraction" },
+          { "time": "13:00", "title": "Lunch", "description": "Local Ife cuisine", "location": "Ile-Ife", "type": "food" },
+          { "time": "14:30", "title": "National Museum, Ile-Ife", "description": "See the world-famous Ife bronze heads and terracotta sculptures", "location": "Ile-Ife", "type": "attraction" },
+          { "time": "16:30", "title": "Ore Grove & Moremi Statue", "description": "Sacred grove and the statue of Yoruba heroine Moremi Ajasoro", "location": "Ile-Ife", "type": "attraction" },
+          { "time": "18:00", "title": "Check into hotel", "description": "Overnight in Ile-Ife or Osogbo", "location": "Ile-Ife", "type": "accommodation" }
+        ]
+      },
+      {
+        "day_number": 5,
+        "title": "Osogbo Sacred Grove & Return",
+        "description": "Experience the UNESCO World Heritage sacred forest before returning to Lagos.",
+        "activities": [
+          { "time": "08:00", "title": "Drive to Osogbo", "description": "45 minutes from Ile-Ife", "location": "Ile-Ife → Osogbo", "type": "transport" },
+          { "time": "09:30", "title": "Osun-Osogbo Sacred Grove", "description": "Walk through the UNESCO site — shrines, sculptures, ancient forest", "location": "Osogbo", "type": "attraction" },
+          { "time": "12:00", "title": "Lunch in Osogbo", "description": "Local restaurant", "location": "Osogbo", "type": "food" },
+          { "time": "13:30", "title": "Return to Lagos", "description": "4 hour drive back via the expressway", "location": "Osogbo → Lagos", "type": "transport" },
+          { "time": "18:00", "title": "Farewell dinner", "description": "Celebrate the journey at a Lagos restaurant", "location": "Lagos", "type": "food" }
+        ]
+      }
+    ],
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "itin-festival",
+    "title": "Festival Route",
+    "slug": "festival-route",
+    "type": "festival",
+    "tagline": "Experience Lagos at its most electric",
+    "description": "A 4-day immersion into Lagos's legendary Detty December season — concerts, beach parties, art fairs, and food festivals. This route is designed for the diaspora homecoming crowd.",
+    "duration_days": 4,
+    "image_url": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&q=80",
+    "highlights": ["Afrobeats headliner concerts", "Beach parties at Elegushi & Landmark", "Art X Lagos", "Street food crawl", "New Afrika Shrine session"],
+    "price_estimate": "₦300,000 – ₦700,000 per person",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Arrival & Art Scene",
+        "description": "Settle in and start with Lagos's incredible art and cultural scene.",
+        "activities": [
+          { "time": "10:00", "title": "Check into hotel", "description": "Victoria Island or Lekki Phase 1", "location": "Victoria Island", "type": "accommodation" },
+          { "time": "12:00", "title": "Brunch at Art Café", "description": "Gallery brunch experience", "location": "Victoria Island", "type": "food" },
+          { "time": "14:00", "title": "Nike Art Gallery", "description": "Four floors of Nigeria's best contemporary art", "location": "Lekki", "type": "attraction" },
+          { "time": "16:00", "title": "Terra Kulture Theatre", "description": "Catch an afternoon show", "location": "Victoria Island", "type": "attraction" },
+          { "time": "20:00", "title": "Welcome dinner", "description": "Rooftop dining with Lagos skyline views", "location": "Victoria Island", "type": "food" }
+        ]
+      },
+      {
+        "day_number": 2,
+        "title": "Beach Day & Concert Night",
+        "description": "Lagos beach culture by day, headliner concert by night.",
+        "activities": [
+          { "time": "10:00", "title": "Landmark Beach", "description": "Beach vibes, water sports, cocktails", "location": "Victoria Island", "type": "attraction" },
+          { "time": "14:00", "title": "Lunch at Landmark Village", "description": "Seaside restaurant strip", "location": "Victoria Island", "type": "food" },
+          { "time": "16:00", "title": "Shopping & Prep", "description": "Lagos designer boutiques — get concert ready", "location": "Lekki", "type": "free_time" },
+          { "time": "20:00", "title": "Headliner Concert", "description": "Major Detty December concert — Wizkid, Davido, or Burna Boy", "location": "Eko Convention Centre", "type": "attraction" }
+        ]
+      },
+      {
+        "day_number": 3,
+        "title": "Culture, Food & The Shrine",
+        "description": "Deep cultural experience by day, legendary Afrobeat session by night.",
+        "activities": [
+          { "time": "10:00", "title": "Freedom Park", "description": "Morning walk through the heritage site", "location": "Lagos Island", "type": "attraction" },
+          { "time": "12:00", "title": "Street Food Crawl", "description": "Guided tour of Lagos's best street food — suya, boli, akara", "location": "Lagos Island & Yaba", "type": "food" },
+          { "time": "15:00", "title": "Lekki Market", "description": "Souvenirs, crafts, and negotiations", "location": "Lekki", "type": "shopping" },
+          { "time": "20:00", "title": "New Afrika Shrine", "description": "Sunday session — live Afrobeat by Femi or Seun Kuti", "location": "Ikeja", "type": "attraction" }
+        ]
+      },
+      {
+        "day_number": 4,
+        "title": "Beach Party & Farewell",
+        "description": "One last Lagos day — beach rave, sunset, and farewell.",
+        "activities": [
+          { "time": "11:00", "title": "Elegushi Beach", "description": "Beach party / rave — the heartbeat of Detty December", "location": "Lekki", "type": "attraction" },
+          { "time": "15:00", "title": "Spa & Recovery", "description": "Hotel spa treatment after the festivities", "location": "Victoria Island", "type": "free_time" },
+          { "time": "18:00", "title": "Sunset cocktails", "description": "Drinks at a waterfront bar", "location": "Victoria Island", "type": "food" },
+          { "time": "20:00", "title": "Farewell dinner", "description": "Final Lagos feast", "location": "Victoria Island", "type": "food" }
+        ]
+      }
+    ],
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "itin-nature",
+    "title": "Nature Route",
+    "slug": "nature-route",
+    "type": "nature",
+    "tagline": "Discover Southwest Nigeria's wild side",
+    "description": "A 3-day journey from the wetlands of Lekki to the sacred forests of Osogbo and the dramatic hilltop ruins of Idanre. For travellers who want nature, spirituality, and adventure.",
+    "duration_days": 3,
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+    "highlights": ["Lekki canopy walkway", "Osun Sacred Grove (UNESCO)", "Idanre Hills 640-step climb", "Tropical forest walks", "Wildlife spotting"],
+    "price_estimate": "₦150,000 – ₦280,000 per person",
+    "days": [
+      {
+        "day_number": 1,
+        "title": "Lekki Wetlands",
+        "description": "Start your nature journey in Lagos's hidden green sanctuary.",
+        "activities": [
+          { "time": "07:00", "title": "Early morning at Lekki Conservation Centre", "description": "Best time for wildlife — monkeys, birds, crocodiles", "location": "Lekki", "type": "attraction" },
+          { "time": "09:30", "title": "Canopy walkway", "description": "Walk Africa's longest canopy walkway at 401 metres", "location": "Lekki", "type": "attraction" },
+          { "time": "12:00", "title": "Lunch", "description": "Fresh seafood near the lagoon", "location": "Lekki", "type": "food" },
+          { "time": "14:00", "title": "Drive to Osogbo", "description": "4 hour drive to Osun State", "location": "Lagos → Osogbo", "type": "transport" },
+          { "time": "18:00", "title": "Check into hotel", "description": "Rest in Osogbo", "location": "Osogbo", "type": "accommodation" }
+        ]
+      },
+      {
+        "day_number": 2,
+        "title": "Sacred Grove & Forest Walk",
+        "description": "Explore one of the last primary forests in southern Nigeria — a place of deep spiritual and ecological significance.",
+        "activities": [
+          { "time": "08:00", "title": "Osun-Osogbo Sacred Grove", "description": "Guided walk through the UNESCO World Heritage forest", "location": "Osogbo", "type": "attraction" },
+          { "time": "11:00", "title": "River walk", "description": "Follow the Osun River through the grove", "location": "Osogbo", "type": "attraction" },
+          { "time": "13:00", "title": "Lunch in Osogbo", "description": "Local cuisine", "location": "Osogbo", "type": "food" },
+          { "time": "15:00", "title": "Drive to Idanre", "description": "2.5 hour drive to Ondo State", "location": "Osogbo → Idanre", "type": "transport" },
+          { "time": "18:00", "title": "Check into hotel", "description": "Rest at the base of Idanre Hills", "location": "Idanre", "type": "accommodation" }
+        ]
+      },
+      {
+        "day_number": 3,
+        "title": "Idanre Hills Summit",
+        "description": "Climb 640 ancient steps to a hilltop ghost town where Yoruba history meets stunning natural beauty.",
+        "activities": [
+          { "time": "06:30", "title": "Early climb of Idanre Hills", "description": "640 steps to the summit — best done before the heat", "location": "Idanre", "type": "attraction" },
+          { "time": "08:30", "title": "Explore the old settlement", "description": "Palace ruins, thunder god shrine, Agboogun footprint", "location": "Idanre Hills summit", "type": "attraction" },
+          { "time": "10:00", "title": "Descend and brunch", "description": "Local breakfast at the base", "location": "Idanre", "type": "food" },
+          { "time": "12:00", "title": "Return to Lagos", "description": "4.5 hour drive back", "location": "Idanre → Lagos", "type": "transport" }
+        ]
+      }
+    ],
+    "created_at": "2026-01-01T00:00:00Z"
+  }
+]

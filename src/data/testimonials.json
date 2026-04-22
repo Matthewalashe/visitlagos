@@ -1,0 +1,37 @@
+[
+  {
+    "id": "test-1",
+    "name": "Adaeze Okafor",
+    "location": "London, UK",
+    "quote": "VisitLagos made my Detty December trip flawless. The Heritage Route let me trace my family's roots from Lagos to Ile-Ife — an experience I'll never forget. Everything was planned, all I had to do was show up and soak it in.",
+    "trip_type": "Heritage Route — Detty December 2025"
+  },
+  {
+    "id": "test-2",
+    "name": "Marcus Johnson",
+    "location": "Atlanta, USA",
+    "quote": "As an African-American visiting West Africa for the first time, I was nervous about logistics. VisitLagos removed every barrier. The cultural storytelling on the site prepared me emotionally for Badagry — I wasn't just a tourist, I felt like I was coming home.",
+    "trip_type": "Heritage Route — First-time visitor"
+  },
+  {
+    "id": "test-3",
+    "name": "Funke Adeyemi",
+    "location": "Toronto, Canada",
+    "quote": "I've been to Lagos many times to visit family, but I never explored beyond Victoria Island. The Nature Route opened my eyes — Idanre Hills was absolutely breathtaking. I didn't know Nigeria had landscapes like that!",
+    "trip_type": "Nature Route — Diaspora homecoming"
+  },
+  {
+    "id": "test-4",
+    "name": "David & Sarah Chen",
+    "location": "Singapore",
+    "quote": "We wanted something completely different from the usual Southeast Asia travel circuit. The Osun-Osogbo Festival was one of the most powerful cultural experiences of our lives. The sacred grove felt like another world entirely.",
+    "trip_type": "Festival Route — Culture seekers"
+  },
+  {
+    "id": "test-5",
+    "name": "Chidi Nwosu",
+    "location": "Houston, USA",
+    "quote": "The Detty December concert guide saved me. Got tickets to Wizkid, Burna Boy, AND the food festival — all through the platform. My friends back in Houston are already planning for next year based on my stories.",
+    "trip_type": "Festival Route — Detty December 2025"
+  }
+]
