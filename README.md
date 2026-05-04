@@ -1,73 +1,62 @@
-# React + TypeScript + Vite
+# VisitLagos 🌴
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **VisitLagos**, the premier digital tourism platform dedicated to showcasing the vibrant culture, exciting events, beautiful destinations, and rich heritage of Lagos, Nigeria.
 
-Currently, two official plugins are available:
+## 🚀 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+VisitLagos is a modern, responsive web application designed to help tourists and locals discover the best that Lagos has to offer. Whether you're planning an itinerary, searching for the hottest "Detty December" events, or looking for local attractions, VisitLagos provides an immersive and visually stunning experience.
 
-## React Compiler
+Our goal is to digitize the Lagos tourism experience, providing a sleek interface that seamlessly connects users with the city's heartbeat.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Tech Stack
 
-## Expanding the ESLint configuration
+This platform was built with performance, aesthetics, and user experience in mind, utilizing a modern frontend stack:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework:** React 19 + Vite for ultra-fast development and optimized production builds.
+- **Styling:** Tailwind CSS, utilizing a "Brutalist × Glassmorphism" design system with deep greens, vibrant gold accents, and a dynamic dark mode.
+- **Routing:** React Router DOM for seamless client-side navigation.
+- **Icons:** Lucide React for consistent, crisp, and beautiful iconography.
+- **Backend/Data:** Supabase (PostgreSQL) for structured data storage, user authentication, and real-time backend functionality (with robust local JSON fallbacks for offline testing).
+- **SEO:** React Helmet Async for dynamic metadata and search engine optimization.
+- **Deployment:** Vercel for lightning-fast, continuous delivery and edge networking.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Key Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Dynamic Destinations & Attractions:** Browse curated lists of Lagos' most iconic spots.
+- **Event Discovery:** Integrated event calendars, including exclusive "Detty December" showcases.
+- **Custom Itineraries:** Pre-planned or customizable travel guides for the perfect Lagos trip.
+- **Cultural Platform:** Deep-dives into storytelling, local cuisine, art, and nightlife.
+- **Responsive & Mobile-First:** Designed to look incredible on any device, from massive desktop monitors to mobile phones on the go.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Local Development
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+To run this project locally:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository:**
+   ```bash
+   git clone <your-github-repo-url>
+   cd VisitLagos
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🌍 Deployment
+
+This project is configured for seamless deployment on **Vercel**. 
+You can link your GitHub repository to your Vercel dashboard to enable automatic deployments on every push to the `main` branch.
+
+---
+*Built to show the world the beauty of Lagos.* 🇳🇬
