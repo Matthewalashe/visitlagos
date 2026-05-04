@@ -145,3 +145,21 @@ export async function submitEnquiry(enquiry: {
   console.log('Enquiry (local):', enquiry);
   return { success: true };
 }
+
+// ---- Ticket Requests ----
+export async function submitTicketRequest(request: {
+  event_id: string;
+  name: string;
+  email: string;
+  whatsapp?: string;
+  quantity: number;
+  message?: string;
+}): Promise<{ success: boolean; error?: string }> {
+  if (supabase) {
+    const { error } = await supabase.from('ticket_requests').insert(request);
+    if (error) return { success: false, error: 'Something went wrong. Please try again.' };
+    return { success: true };
+  }
+  console.log('Ticket Request (local):', request);
+  return { success: true };
+}
